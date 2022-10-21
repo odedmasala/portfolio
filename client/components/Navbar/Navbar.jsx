@@ -1,9 +1,13 @@
-
-
+import React from "react";
+// import style from "./NavbarStyle/Navbar.module.css";
+import Link from "next/link";
 const Navbar = () => {
-<>
-<h1></h1>
-</>
+  return (
+    <div className="navbar">
+      Navbar
+      <div className="david">mosahe</div>
+    </div>
+  );
 };
 
 export default Navbar;
