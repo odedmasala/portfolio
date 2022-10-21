@@ -2,8 +2,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.navbar .david {
-  background-color: red;
+.navbar .nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 8px;
+  padding-right: 30px;
+}
+
+.navbar .nav-container .nav-list {
+  color: #1f2937;
+}
+
+.navbar .nav-container .nav-list li {
+  margin-left: 2.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+}
+
+.navbar .nav-container .nav-list li:hover {
+  border-bottom-width: 1px;
+}
+
+.navbar .nav-container .nav-list .nav-btn {
+  color: #1f2937;
 }
 
 html {
