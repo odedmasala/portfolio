@@ -35,6 +35,98 @@
   color: #1f2937;
 }
 
+.navbar .nav-Mobile-Menu .close-side-nav {
+  position: fixed;
+  left: -100%;
+  top: 0px;
+  padding: 2.5rem;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.navbar .nav-Mobile-Menu .open-side-nav {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 75%;
+  height: 100vh;
+  --tw-bg-opacity: 1;
+  background-color: #ecf0f3;
+  padding: 2.5rem;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.navbar .nav-Mobile-Menu .open-side-nav .side-nav-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .nav-Mobile-Menu .open-side-nav .main-nav-bar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navbar .nav-Mobile-Menu .open-side-nav .main-nav-bar .list-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.navbar .nav-Mobile-Menu .open-side-nav .close-btn {
+  border-radius: 9999px;
+  padding: 0.75rem;
+  cursor: pointer;
+}
+
+.navbar .nav-Mobile-Menu .open-side-nav .side-nav-list {
+  text-transform: uppercase;
+}
+
+.navbar .nav-Mobile-Menu .open-side-nav .side-nav-list li {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.navbar .nav-Mobile-Menu.open-side-menu {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(12, 11, 11, 0.597);
+}
+
 html {
   scroll-behavior: smooth;
   font-family: "Raleway", sans-serif;

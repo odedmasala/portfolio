@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
-// import style from "./NavbarStyle/Navbar.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import NavList from "./NavList";
+import BtnList from "./BtnList";
+import { connection } from "../../utils";
+
 const Navbar = () => {
   const [shadow, setShadow] = useState(false);
   const [nav, setNav] = useState(false);
@@ -28,7 +29,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="navbar bg-black">
+      <div className="navbar">
         <div className={shadow ? localStyle.scroll : localStyle.NoScroll}>
           <div className="nav-container w-full h-full 2xl:px-16">
             <Link href="/">
@@ -43,29 +44,51 @@ const Navbar = () => {
               </a>
             </Link>
             <div>
-              <ul className="nav-list hidden md:flex">
-                <li>
-                  <Link href="/">Home</Link>
-                </li>
-                <li>
-                  <Link href="/">About</Link>
-                </li>
-                <li>
-                  <Link href="/">Skills</Link>
-                </li>
-                <li>
-                  <Link href="/">Projects</Link>
-                </li>
-                <li>
-                  <Link href="/">Resume</Link>
-                </li>
-                <li>
-                  <Link href="/">Contact</Link>
-                </li>
-              </ul>
+              <NavList style={"nav-list hidden md:flex"} />
               {/* Hamburger Icon */}
               <div onClick={handleNav} className="nav-btn md:hidden">
                 <AiOutlineMenu size={25} />
+              </div>
+            </div>
+          </div>
+          {/* Mobile Menu */}
+          {/* Overlay */}
+          <div
+            className={
+              nav
+                ? "  nav-Mobile-Menu open-side-menu  md:hidden ": "nav-Mobile-Menu"}>
+            {/* Side Drawer Menu */}
+            <div
+              className={nav ? " open-side-nav sm:w-[60%] md:w-[45%]" : "close-side-nav"}>
+              <div>
+                <div className="side-nav-header">
+                  <Link href="/">
+                    <a>
+                      <Image
+                        src={localStyle.NavLogo}
+                        width="87"
+                        height="35"
+                        alt="/"
+                      />
+                    </a>
+                  </Link>
+                  <div
+                    onClick={handleNav}
+                    className="close-btn shadow-lg shadow-gray-400"
+                  >
+                    <AiOutlineClose />
+                  </div>
+                </div>
+              </div>
+              <div className="main-nav-bar">
+                <NavList style={"side-nav-list"} handlerNav={setNav} />
+                <div className="pt-40">
+                  <div className="list-btn sm:w-[80%]">
+                    {connection?.map((elem) => (
+                      <BtnList logoBtn={elem} />
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
           </div>
