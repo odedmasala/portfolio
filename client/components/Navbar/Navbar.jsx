@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import NavList from "./NavList";
-import BtnList from "./BtnList";
+import { NavList,BtnList } from "./elements";
 import { connection } from "../../utils";
 
 const Navbar = () => {
