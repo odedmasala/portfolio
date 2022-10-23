@@ -1,4 +1,4 @@
-$linkColor: #1f2937;
+// $linkColor: #1f2937;
 .navbar {
   .nav-container {
     display: flex;
@@ -7,7 +7,7 @@ $linkColor: #1f2937;
     padding-left: 8px;
     padding-right: 30px;
     .nav-list {
-      color: $linkColor;
+      // color: $linkColor;
       li {
         margin-left: 2.5rem;
         font-size: 0.875rem;
@@ -18,7 +18,7 @@ $linkColor: #1f2937;
         }
       }
       .nav-btn {
-        color: $linkColor;
+        // color: $linkColor;
       }
     }
   }
@@ -38,7 +38,7 @@ $linkColor: #1f2937;
       width: 75%;
       height: 100vh;
       --tw-bg-opacity: 1;
-      background-color: #ecf0f3;
+      // background-color: #ecf0f3;
       padding: 2.5rem;
       transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
       transition-duration: 500ms;

@@ -18,7 +18,6 @@ const Home = () => {
         ></link>
         <link rel="icon" href="/blue_circle.png" />
       </Head>
-      <Navbar/>
       <Main/>
     </div>
   )

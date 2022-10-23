@@ -16,10 +16,6 @@
   padding-right: 30px;
 }
 
-.navbar .nav-container .nav-list {
-  color: #1f2937;
-}
-
 .navbar .nav-container .nav-list li {
   margin-left: 2.5rem;
   font-size: 0.875rem;
@@ -29,10 +25,6 @@
 
 .navbar .nav-container .nav-list li:hover {
   border-bottom-width: 1px;
-}
-
-.navbar .nav-container .nav-list .nav-btn {
-  color: #1f2937;
 }
 
 .navbar .nav-Mobile-Menu .close-side-nav {
@@ -53,7 +45,6 @@
   width: 75%;
   height: 100vh;
   --tw-bg-opacity: 1;
-  background-color: #ecf0f3;
   padding: 2.5rem;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
