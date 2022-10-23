@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import { NavList,BtnList } from "./elements";
+import { NavList, BtnList } from "./elements";
 import { connection } from "../../utils";
 
 const Navbar = () => {
@@ -44,6 +44,7 @@ const Navbar = () => {
             </Link>
             <div>
               <NavList style={"nav-list hidden md:flex"} />
+              {/* nav-dark-mode */}
               {/* Hamburger Icon */}
               <div onClick={handleNav} className="nav-btn md:hidden">
                 <AiOutlineMenu size={25} />
@@ -53,12 +54,13 @@ const Navbar = () => {
           {/* Mobile Menu */}
           {/* Overlay */}
           <div
-            className={
-              nav
-                ? "  nav-Mobile-Menu open-side-menu  md:hidden ": "nav-Mobile-Menu"}>
+            className={nav? "  nav-Mobile-Menu open-side-menu  md:hidden ": "nav-Mobile-Menu"} >
             {/* Side Drawer Menu */}
             <div
-              className={nav ? " open-side-nav sm:w-[60%] md:w-[45%]" : "close-side-nav"}>
+              className={
+                nav ? " open-side-nav sm:w-[60%] md:w-[45%]" : "close-side-nav"
+              }
+            >
               <div>
                 <div className="side-nav-header">
                   <Link href="/">
@@ -83,8 +85,8 @@ const Navbar = () => {
                 <NavList style={"side-nav-list"} handlerNav={setNav} />
                 <div className="pt-40">
                   <div className="list-btn sm:w-[80%]">
-                    {connection?.map((elem) => (
-                      <BtnList logoBtn={elem} />
+                    {connection?.map((elem, index) => (
+                      <BtnList logoBtn={elem} key={index} />
                     ))}
                   </div>
                 </div>
