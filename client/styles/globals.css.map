@@ -7,7 +7,10 @@
         "../components/Navbar/_Navbar.scss",
         "../components/Main/_Main.scss",
         "../components/About/_About.scss",
-        "../components/Skills/_Skills.scss"
+        "../components/Skills/_Skills.scss",
+        "../components/ProjectItem/_ProjectItem.scss",
+        "../components/Projects/_Projects.scss",
+        "../components/Contact/_Contact.scss"
     ],
     "names": [],
     "file": "globals.css"
