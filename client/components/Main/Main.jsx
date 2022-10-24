@@ -4,14 +4,11 @@ import { connection } from "../../utils";
 const Main = () => {
   return (
     <div>
-      <div
-        id="home"
-        className="main"
-      >
+      <div id="home" className="main">
         <div className="main-container">
           <div>
             <h1>
-              Hi, I&#39;m <span className="text-[#61954a]">Oded</span>
+              Hi, I'm <span className="text-[#61954a]">Oded</span>
             </h1>
             <h1>A Front-End Web Developer</h1>
             <p>
@@ -23,7 +20,8 @@ const Main = () => {
                 <BtnList logoBtn={elem} key={index} />
               ))}
             </div>
-          </div>x
+          </div>
+          x
         </div>
       </div>
     </div>

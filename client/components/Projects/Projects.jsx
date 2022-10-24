@@ -12,7 +12,7 @@ const Projects = () => {
     <div id="projects" className="projects">
       <div className="projects-container">
         <p className="title-projects">Projects</p>
-        <h2>What I've Built</h2>
+        <h2>Checkout What I've Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           {projectsList?.map((elem, index) => (
             <ProjectItem project={elem} key={index} />

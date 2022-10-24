@@ -15,13 +15,15 @@ const Navbar = ({ dark }) => {
   };
   useEffect(() => {
     const handleShadow = () => {
-      if (window.scrollY >= 90) {
-        setShadow(true);
-      } else {
-        setShadow(false);
+      if (window !== "undefined") {
+        if (window.scrollY >= 90) {
+          setShadow(true);
+        } else {
+          setShadow(false);
+        }
       }
     };
-    window.addEventListener("scroll", handleShadow);
+    if (window !== "undefined") window.addEventListener("scroll", handleShadow);
   }, []);
   const localStyle = {
     scroll: "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300",

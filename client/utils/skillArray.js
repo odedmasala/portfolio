@@ -5,24 +5,38 @@ import {
   SiExpress,
   SiTailwindcss,
   SiTypescript,
-
+  SiCss3,
+  SiJavascript,
+  SiReact,
+  SiNodedotjs,
+  SiMongodb,
+  SiGit,
+  SiPython,
+  SiNextdotjs,
+  SiGithub,
 } from "react-icons/si";
-import { GrMysql } from "react-icons/gr";
-import { DiCss3, DiMongodb } from "react-icons/di";
-import {ImDatabase} from "react-icons/im"
 
+import { GrMysql } from "react-icons/gr";
+import { DiMongodb } from "react-icons/di";
+import { ImDatabase } from "react-icons/im";
+import { AiFillHtml5 } from "react-icons/ai";
 export const skillArray = [
-  { name: "HTML", label: "html",type:"FontAwesomeIcon", icon:"fa-brands fa-html5" },
-  { name: "css", label: "css",type:"FontAwesomeIcon", icon: "fa-brands fa-css3-alt" },
-  { name: "Javascript", label: "Javascript",type:"FontAwesomeIcon", icon: "fa-brands fa-js" },
-  { name: "React", label: "React",type:"FontAwesomeIcon", icon: "fa-brands fa-react" },
-  { name: "database", label: "database", icon:<ImDatabase/> },
-  { name: "Node js", label: "NodeJs",type:"FontAwesomeIcon", icon: "fa-brands fa-node" },
-  { name: "Express", label: "Express", icon: <SiExpress /> },
-  { name: "Mongodb", label: "Mongodb", icon: <DiMongodb /> },
-  { name: "MySQL", label: "MySQL", icon: <GrMysql /> },
+  { name: "HTML", label: "html", icon: <AiFillHtml5 /> },
+  { name: "css", label: "css", icon: <SiCss3 /> },
   { name: "Tailwind css", label: "Tailwind css", icon: <SiTailwindcss /> },
-  { name: "Git", label: "Git",type:"FontAwesomeIcon", icon: "fa-brands fa-square-git"  },
-  { name: "Python", label: "Python",type:"FontAwesomeIcon", icon: "fa-brands fa-python" },
+  { name: "Java script", label: "Java script", icon: <SiJavascript /> },
+  { name: "Type script", label: "Type script", icon: <SiTypescript /> },
+  { name: "React", label: "React", icon: <SiReact /> },
+  { name: "Next js", label: "Next js", icon: <SiNextdotjs /> },
   { name: "Redux", label: "Redux", icon: <SiRedux /> },
+  { name: "Node js", label: "Node Js", icon: <SiNodedotjs /> },
+  { name: "Express", label: "Express", icon: <SiExpress /> },
+  { name: "Python", label: "Python", icon: <SiPython /> },
+
+  { name: "database", label: "database", icon: <ImDatabase /> },
+
+  { name: "Mongodb", label: "Mongodb", icon: <SiMongodb /> },
+  { name: "MySQL", label: "MySQL", icon: <GrMysql /> },
+  { name: "Git", label: "Git", icon: <SiGit /> },
+  { name: "Github", label: "Github", icon: <SiGithub /> },
 ];

@@ -1,21 +1,17 @@
 import { Navbar } from "../components";
 import "../styles/globals.css";
+import { useRouter } from "next/router";
 import { useState } from "react";
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 function MyApp({ Component, pageProps }) {
-  library.add(fab, faCheckSquare, faCoffee)
-  // const router = useRouter()
-  //  const {project} = router
+  const router = useRouter();
   const [darkMode, setDarkMode] = useState(false);
-  // console.log(darkMode);
   return (
     <>
-      <div className={darkMode ? "dark w-full" : "w-full"}>
-        <Navbar dark={setDarkMode} />
-        <Component {...pageProps} />
-      </div>
+
+        <div className={darkMode ? "dark w-full" : "w-full"}>
+          {router.pathname != "/404" && <Navbar dark={setDarkMode} />}
+          <Component {...pageProps} />
+        </div>
     </>
   );
 }

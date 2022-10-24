@@ -24,8 +24,22 @@
       //   color: #374151;
     }
     .connect-container {
-      padding-top: 1rem/* 16px */;
-      padding-bottom: 1rem/* 16px */;margin: auto;max-width: 330px;justify-content: space-between;align-items: center;display: flex;
+      padding-top: 1rem /* 16px */;
+      padding-bottom: 1rem /* 16px */;
+      margin: auto;
+      max-width: 330px;
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
     }
   }
+}
+.connect-container {
+  padding-top: 1rem /* 16px */;
+  padding-bottom: 1rem /* 16px */;
+  margin: auto;
+  max-width: 330px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
 }
