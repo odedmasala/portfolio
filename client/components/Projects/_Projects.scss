@@ -1,0 +1,23 @@
+.projects {
+  width: 100%;
+  .projects-container {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem /* 8px */;
+    padding-right: 0.5rem /* 8px */;
+    padding-top: 4rem /* 64px */;
+    padding-bottom: 4rem /* 64px */;
+    p {
+      font-size: 1.25rem /* 20px */;
+      line-height: 1.75rem /* 28px */;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #5651e5;
+    }
+    h2 {
+      padding-top: 1rem/* 16px */;
+      padding-bottom: 1rem/* 16px */;
+    }
+  }
+}

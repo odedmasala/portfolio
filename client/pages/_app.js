@@ -1,6 +1,5 @@
 import { Navbar } from "../components";
 import "../styles/globals.css";
-import { useRouter } from "next/router";
 import { useState } from "react";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -13,7 +12,7 @@ function MyApp({ Component, pageProps }) {
   // console.log(darkMode);
   return (
     <>
-      <div className={darkMode ? "dark" : ""}>
+      <div className={darkMode ? "dark w-full" : "w-full"}>
         <Navbar dark={setDarkMode} />
         <Component {...pageProps} />
       </div>

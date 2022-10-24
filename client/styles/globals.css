@@ -219,6 +219,49 @@
   padding: 0.5rem;
 }
 
+.ProjectItem {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: auto;
+  width: 100%;
+  border-radius: 0.75rem;
+}
+
+.projects {
+  width: 100%;
+}
+
+.projects .projects-container {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.projects .projects-container p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #5651e5;
+}
+
+.projects .projects-container h2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 html {
   scroll-behavior: smooth;
   font-family: "Raleway", sans-serif;

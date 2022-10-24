@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { About, Main, Skills} from '../components';
+import { About, Main, Projects, Skills} from '../components';
 
 const Home = () => {
   return (
@@ -22,6 +22,7 @@ const Home = () => {
       <Main/>
       <About/>
       <Skills/>
+      <Projects/>
     </div>
   )
 }
