@@ -8,23 +8,23 @@ const NavList = ({ style, handlerNav }) => {
           <li onClick={() => handlerNav && handlerNav(false)}>Home</li>
         </Link>
 
-        <Link href="/">
+        <Link href="/#about">
           <li onClick={() => handlerNav && handlerNav(false)}>About</li>
         </Link>
 
-        <Link href="/">
+        <Link href="/#skills">
           <li onClick={() => handlerNav && handlerNav(false)}>Skills</li>
         </Link>
 
-        <Link href="/">
+        <Link href="/#projects">
           <li onClick={() => handlerNav && handlerNav(false)}>Projects</li>
         </Link>
 
-        <Link href="/">
+        <a target={"_blank"}  href="https://drive.google.com/file/d/1PlO5WlH9XWLqf8WKIWRyr7ABS8vjtA0o/view?usp=sharing">
           <li onClick={() => handlerNav && handlerNav(false)}>Resume</li>
-        </Link>
+        </a>
 
-        <Link href="/">
+        <Link href="/#contact">
           <li onClick={() => handlerNav && handlerNav(false)}>Contact</li>
         </Link>
       </ul>
