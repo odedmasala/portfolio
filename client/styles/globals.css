@@ -169,6 +169,56 @@
   display: flex;
 }
 
+.about {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.about .about-container {
+  max-width: 1240px;
+  gap: 2rem;
+  margin: auto;
+}
+
+.about .about-container p {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.about .about-container h2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.about .about-container .img-container {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem;
+}
+
+.skills {
+  width: 100%;
+  padding: 0.5rem;
+}
+
 html {
   scroll-behavior: smooth;
   font-family: "Raleway", sans-serif;

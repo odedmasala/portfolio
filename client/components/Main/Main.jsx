@@ -6,7 +6,7 @@ const Main = () => {
     <div>
       <div
         id="home"
-        className="main text-gray-800 bg-[#FCFBF4] dark:bg-darked font-Inter  dark:bg-darkedColor-0 dark:bg-auto dark:text-white"
+        className="main"
       >
         <div className="main-container">
           <div>
