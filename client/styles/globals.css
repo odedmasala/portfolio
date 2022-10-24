@@ -235,6 +235,20 @@
   border-radius: 0.75rem;
 }
 
+.ProjectItem p {
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+}
+
+.ProjectItem .info-btn {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  margin-left: 1.5rem;
+  color: white;
+}
+
 .projects {
   width: 100%;
 }
@@ -249,7 +263,7 @@
   padding-bottom: 4rem;
 }
 
-.projects .projects-container p {
+.projects .projects-container .title-projects {
   font-size: 1.25rem;
   line-height: 1.75rem;
   letter-spacing: 0.1em;

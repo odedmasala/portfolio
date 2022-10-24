@@ -11,7 +11,7 @@ const Main = () => {
         <div className="main-container">
           <div>
             <h1>
-              Hi, I&#39;m <span className="text-[#5651e5]"> Clint</span>
+              Hi, I&#39;m <span className="text-[#61954a]">Oded</span>
             </h1>
             <h1>A Front-End Web Developer</h1>
             <p>
