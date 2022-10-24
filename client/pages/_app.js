@@ -9,9 +9,11 @@ function MyApp({ Component, pageProps }) {
     <>
 
         <div className={darkMode ? "dark w-full" : "w-full"}>
+          <div className="text-gray-800 bg-[#FCFBF4] dark:bg-darked font-Inter  dark:bg-darkedColor-0 dark:bg-auto dark:text-white">
           {router.pathname != "/404" && <Navbar dark={setDarkMode} />}
           <Component {...pageProps} />
         </div>
+          </div>
     </>
   );
 }

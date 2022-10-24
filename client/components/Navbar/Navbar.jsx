@@ -33,7 +33,7 @@ const Navbar = ({ dark }) => {
   // console.log(darkMode);
   return (
     <>
-      <div className="navbar text-gray-800 bg-[#FCFBF4] dark:bg-darked font-Inter  dark:bg-darkedColor-0 dark:bg-auto dark:text-white">
+      <div className="navbar py-0">
         <div className={shadow ? localStyle.scroll : localStyle.NoScroll}>
           <div className="nav-container w-full h-full 2xl:px-16text-gray-800 bg-[#FCFBF4] dark:bg-darked font-Inter  dark:bg-darkedColor-0 dark:bg-auto dark:text-white">
             <Link href="/">

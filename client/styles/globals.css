@@ -2,6 +2,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.navbar {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .navbar .nav-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -317,6 +325,29 @@
 .contact h2 {
   text-align: center;
   margin-bottom: 2rem;
+}
+
+.Project-item {
+  width: 100%;
+}
+
+.Project-item .project-container {
+  position: relative;
+  height: 50vh;
+  width: 100vw;
+}
+
+.Project-item .project-container .background-image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50vh;
+  z-index: 10;
+}
+
+.Project-item .project-container .background-image .image {
+  position: absolute;
 }
 
 html {

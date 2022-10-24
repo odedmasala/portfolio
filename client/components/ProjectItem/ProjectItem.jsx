@@ -7,7 +7,7 @@ const ProjectItem = ({ project: { proName, title, tech, backgroundImg } }) => {
     <div className="ProjectItem shadow-xl shadow-gray-700 dark:shadow-gray-600 group hover:bg-gradient-to-r from-[#1c1e1fa7] to-[#1d7755]">
       <Image
         className="rounded-xl group-hover:opacity-10"
-        src={backgroundImg}
+        src={`/${backgroundImg}`}
         width={2000}
         height={1400}
         alt="/"
@@ -17,7 +17,7 @@ const ProjectItem = ({ project: { proName, title, tech, backgroundImg } }) => {
           {title}
         </h3>
         <p className="font-bold text-[#aba2a2]">{tech}</p>
-        <Link href={"/"}>
+        <Link href={`/project/${proName}`}>
           <a className="btn info-btn ml-6">more info</a>
         </Link>
       </div>

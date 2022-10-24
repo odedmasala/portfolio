@@ -1,13 +1,11 @@
 import Link from 'next/link'
+import { useRouter } from "next/router";
+import { useEffect } from 'react';
 
 const  FourOhFour = () => {
-  return <>
-    <h1>404 - Page Not Found</h1>
-    <Link href="/">
-      <a>
-        Go back home
-      </a>
-    </Link>
-  </>
+  useEffect(() => {
+   router.replace("/404")
+  }, []);
+  const router = useRouter();
 }
 export default FourOhFour
