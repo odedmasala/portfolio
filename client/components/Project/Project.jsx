@@ -25,7 +25,7 @@ const Project = ({ proData }) => {
           </div>
         </div>
 
-        <div className="details-container md:grid-cols-5 xl:h-[50vh]">
+        <div className="details-container md:grid-cols-5 ">
           <div className="description-container col-span-4">
             <p>Project</p>
             <h2>Overview</h2>
