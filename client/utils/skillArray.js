@@ -1,7 +1,5 @@
-import { FaReact, FaNodeJs, FaAws } from "react-icons/fa";
 import {
   SiRedux,
-  SiHtml5,
   SiExpress,
   SiTailwindcss,
   SiTypescript,
@@ -15,9 +13,7 @@ import {
   SiNextdotjs,
   SiGithub,
 } from "react-icons/si";
-
 import { GrMysql } from "react-icons/gr";
-import { DiMongodb } from "react-icons/di";
 import { ImDatabase } from "react-icons/im";
 import { AiFillHtml5 } from "react-icons/ai";
 export const skillArray = [
@@ -32,9 +28,7 @@ export const skillArray = [
   { name: "Node js", label: "Node Js", icon: <SiNodedotjs /> },
   { name: "Express", label: "Express", icon: <SiExpress /> },
   { name: "Python", label: "Python", icon: <SiPython /> },
-
   { name: "database", label: "database", icon: <ImDatabase /> },
-
   { name: "Mongodb", label: "Mongodb", icon: <SiMongodb /> },
   { name: "MySQL", label: "MySQL", icon: <GrMysql /> },
   { name: "Git", label: "Git", icon: <SiGit /> },
