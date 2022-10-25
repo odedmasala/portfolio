@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import AboutImg from "../../public/assets/IMG_6010-removebg-preview.png";
+// import AboutImg from "/IMG_6010-removebg-preview.png";
 const About = () => {
   return (
     <div id="about" className="about md:h-screen">
@@ -36,7 +36,7 @@ const About = () => {
           </Link>
         </div>
         <div className="img-container bg-[#f1f5f3] dark:bg-darked shadow-xl shadow-gray-500 dark:shadow-gray-700 rounded-[100%] hover:scale-105 ease-in duration-300">
-          <Image src={AboutImg} className="rounded-[100%]" alt="/" />
+          <Image src={"/IMG_6010-removebg-preview.png"} width={"350px"} height={"500px"} className="rounded-[100%]" alt="/" />
         </div>
       </div>
     </div>
