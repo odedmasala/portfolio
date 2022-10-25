@@ -1,7 +1,8 @@
 import Head from "next/head";
 import { About, Contact, Main, Projects, Skills } from "../components";
-
-const Home = () => {
+import { createClient } from "next-sanity";
+const Home = ({project}) => {
+console.log(project);
   return (
     <div >
       <Head>
@@ -16,5 +17,21 @@ const Home = () => {
     </div>
   );
 };
+const client = createClient({
+  projectId: process.env.DATA_SET_ID,
+  dataset: "production",
+  apiVersion: "2022-10-25",
+  useCdn: false
+});
+export async function getStaticProps() {
+  const project = await client.fetch(`*[_type == "project"]`);
 
+
+
+  return {
+    props: {
+      project
+    }
+  };
+}
 export default Home;
