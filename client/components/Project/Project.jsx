@@ -1,10 +1,9 @@
 import Image from "next/image";
 import React from "react";
-// import netflixImg from "../public/assets/projects/netflix.jpg";
+import Link from "next/link"
+
 import { RiRadioButtonFill } from "react-icons/ri";
-import Link from "next/link";
 const Project = ({ proData }) => {
-  // console.log(proData.backgroundImg);
   return (
     <div className="Project-item">
       <div>
@@ -32,27 +31,27 @@ const Project = ({ proData }) => {
             <h2>Overview</h2>
             <p>{proData?.proDescription}</p>
             {proData.proHref && (
-              <a href={proData?.proHref} target="_blank" rel="noreferrer">
+              <Link href={proData.proHref} target="_blank" rel="noreferrer">
                 <button className="px-8 py-2 mt-4 mr-8 btn info-btn ml-6">
                   Code
                 </button>
-              </a>
+              </Link>
             )}
             {proData.liveDemo && (
-              <a href={proData.liveDemo} target="_blank" rel="noreferrer">
+              <Link href={proData.liveDemo} target="_blank" rel="noreferrer">
                 <button className="px-8 py-2 mt-4 btn info-btn ml-6">
                   Demo
                 </button>
-              </a>
+              </Link>
             )}
           </div>
           <div className="Technologies-container col-span-4 md:col-span-1 shadow-lg shadow-gray-400 dark:shadow-gray-800 border border-[#1211116d] rounded-xl py-4">
             <div className="p-2">
               <p className="text-center font-bold pb-2">Technologies</p>
               <div className="grid grid-cols-3 md:grid-cols-1">
-                {proData?.addTechList.map((elem) => (
-                  <p className=" py-2 flex items-center">
-                    <RiRadioButtonFill className="pr-1" /> {elem}
+                {proData?.addTechList.map((elem,index) => (
+                  <p key={index} className=" py-2 flex items-center">
+                    <RiRadioButtonFill key={index} className="pr-1" /> {elem}
                   </p>
                 ))}
               </div>
