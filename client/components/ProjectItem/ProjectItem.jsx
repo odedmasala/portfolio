@@ -13,12 +13,12 @@ const ProjectItem = ({ project: { proName, title, tech, backgroundImg } }) => {
         alt="/"
       />
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-        <h3 className="text-2xl text-white tracking-wider text-center">
+        <h3 className="text-2xl text-white tracking-wider">
           {title}
         </h3>
         <p className="font-bold text-[#aba2a2]">{tech}</p>
         <Link href={`/project/${proName}`}>
-          <a className="btn info-btn ml-6">more info</a>
+          <a className="btn info-btn">more info</a>
         </Link>
       </div>
     </div>

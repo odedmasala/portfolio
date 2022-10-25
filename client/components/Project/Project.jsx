@@ -26,19 +26,25 @@ const Project = ({ proData }) => {
           </div>
         </div>
 
-        <div className="details-container md:grid-cols-5 xl:h-[43vh]">
+        <div className="details-container md:grid-cols-5 xl:h-[50vh]">
           <div className="description-container col-span-4">
             <p>Project</p>
             <h2>Overview</h2>
             <p>{proData?.proDescription}</p>
-            <a href={proData?.proHref} target="_blank" rel="noreferrer">
-              <button className="px-8 py-2 mt-4 mr-8 btn info-btn ml-6">
-                Code
-              </button>
-            </a>
-            <a href={proData?.liveDemo} target="_blank" rel="noreferrer">
-              <button className="px-8 py-2 mt-4 btn info-btn ml-6">Demo</button>
-            </a>
+            {proData.proHref && (
+              <a href={proData?.proHref} target="_blank" rel="noreferrer">
+                <button className="px-8 py-2 mt-4 mr-8 btn info-btn ml-6">
+                  Code
+                </button>
+              </a>
+            )}
+            {proData.liveDemo && (
+              <a href={proData.liveDemo} target="_blank" rel="noreferrer">
+                <button className="px-8 py-2 mt-4 btn info-btn ml-6">
+                  Demo
+                </button>
+              </a>
+            )}
           </div>
           <div className="Technologies-container col-span-4 md:col-span-1 shadow-lg shadow-gray-400 dark:shadow-gray-800 border border-[#1211116d] rounded-xl py-4">
             <div className="p-2">

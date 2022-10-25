@@ -4,64 +4,77 @@ export const projectsList = [
     title: "you Tube app",
     backgroundImg: "youtube2.jpg",
     tech: "React JS",
-    addTech: "React JS / mui / rapid API",
+    addTech: "React JS / mui / rapid API / Axios API",
     addTechList: ["React JS", "Mui", "rapid API"],
-    proDescription: `I built this application in React JS and is hosted on GitHub pages.
-    This app features user authentication with firebase as well as the
-    firestore cloud storage database. This application is pulling movie
-    data from an the IMDB movie API and displaying different categories.
-    It features horizontal sliding and a featured selection. The
-    useContext hook is also being implemented for app-wide state
-    management.`,
+    proDescription: `Modern web development by building a responsive React JS app that consists of stunning videos, custom categories, channel pages, and best of all, you can play videos directly from your YouTube clone app.`,
     proHref: "https://github.com/odedmasala/react_youtuber_clone",
     liveDemo: "https://vermillion-torte-8f01c4.netlify.app/",
   },
   {
-    proName: "YouTubeClone",
-    title: "you Tube app",
-    backgroundImg: "youtube2.jpg",
-    tech: "React JS",
-    addTech: "React JS / mui / rapid API",
-    proDescription: `I built this application in React JS and is hosted on GitHub pages.
-    This app features user authentication with firebase as well as the
-    firestore cloud storage database. This application is pulling movie
-    data from an the IMDB movie API and displaying different categories.
-    It features horizontal sliding and a featured selection. The
-    useContext hook is also being implemented for app-wide state
-    management.`,
-    proHref: "https://github.com/odedmasala/react_youtuber_clone",
-    liveDemo: "https://vermillion-torte-8f01c4.netlify.app/",
+    proName: "openWeatherApp",
+    title: "open weather app",
+    backgroundImg: "weather_app.png",
+    tech: "Next JS",
+    addTech: "React JS / tailwind css /  Axios API Calls",
+    addTechList: ["React JS", "tailwind css", "Axios API Calls"],
+
+    proDescription: `A fully styled Next JS weather app in Tailwind CSS. I'm learning Next JS so I find it helpful to build multiple applications using a particular tool. I used exies to make the API call to the open weather map servers and return JSON data that we will display on the screen.`,
+    proHref: "https://github.com/odedmasala/open-weather-app",
+    liveDemo: "https://open-weather-11552huju-odedmasala.vercel.app/",
   },
   {
-    proName: "YouTubeClone",
-    title: "you Tube app",
-    backgroundImg: "youtube2.jpg",
+    proName: "ticTacToe",
+    title: "react tic-tac-toe",
+    backgroundImg: "react-tic-tac-toe.png",
     tech: "React JS",
-    addTech: "React JS / mui / rapid API",
-    proDescription: `I built this application in React JS and is hosted on GitHub pages.
-    This app features user authentication with firebase as well as the
-    firestore cloud storage database. This application is pulling movie
-    data from an the IMDB movie API and displaying different categories.
-    It features horizontal sliding and a featured selection. The
-    useContext hook is also being implemented for app-wide state
-    management.`,
-    proHref: "https://github.com/odedmasala/react_youtuber_clone",
-    liveDemo: "https://vermillion-torte-8f01c4.netlify.app/",
+    addTech: "Vite JS / Typescript / tailwind css",
+    addTechList: ["Vite JS ", "Typescript", "tailwind css"],
+
+    proDescription: `A Tic Tac Toe app that uses some of today's newest web development tools. I built the app in React, with Typescript as a language, Tailwind for CSS and Vite's rapid build tool. While building, I learned a lot about TailwindCss and its convenient design capabilities.
+    It was a lot of fun building the app. Welcome to play LIVE`,
+    proHref: "https://github.com/odedmasala/react-tic-tac-toe",
+    liveDemo: "https://legendary-granita-dcd632.netlify.app/",
   },
   {
-    proName: "YouTubeClone",
-    title: "you Tube app",
-    backgroundImg: "youtube2.jpg",
+    proName: "food-API-Project",
+    title: "Masala recipes",
+    backgroundImg: "masala-respies-2.png",
+    tech: "JavaScript",
+    addTech: "JavaScript vanilla  / Bootstrap / localStorage / Jquery",
+    addTechList: ["JavaScript", "Bootstrap", "localStorage", "Jquery"],
+    proDescription: `I built this application in vanilla JavaScript as part of a project to complete the initial JavaScript learning phase of the course. It was very challenging to build an application initially.
+    The site is a food recipe site that offers menus by easy login.
+    Challenges along the way were in the creation of a connection tool together with the localStorage, and the use of an API while working to mediate the Jquery library.
+    It was very fun and enjoyable, welcome to come in and check it out...`,
+    proHref: "https://github.com/odedmasala/food-API-project",
+    liveDemo: "https://stunning-squirrel-864cdc.netlify.app/",
+  },
+  {
+    proName: "Bullets-pop-app",
+    title: "Bullets-pop app",
+    backgroundImg: "pop-game.jpg",
+    tech: "JavaScript",
+    addTech: "JavaScript vanilla / Canva / OOP",
+    addTechList: ["JavaScript vanilla", "Canva", "OOP"],
+    proDescription: `In this app I created a 2D bullet shooting game using JavaScript and HTML canvas. The bullet engine is configurable, this means you can change the speed, the amount of damage and even limit the number of bullets fired at a time.`,
+    proHref: "https://github.com/odedmasala/Bullets-pop-app",
+    liveDemo: "https://dazzling-panda-b6914d.netlify.app/",
+  },
+  {
+    proName: "flight-widget-app",
+    title: "flight widget",
+    backgroundImg: "flight-widget-app.jpg",
     tech: "React JS",
-    addTech: "React JS / mui / rapid API",
-    proDescription: `I built this application in React JS and is hosted on GitHub pages.
-    This app features user authentication with firebase as well as the
-    firestore cloud storage database. This application is pulling movie
-    data from an the IMDB movie API and displaying different categories.
-    It features horizontal sliding and a featured selection. The
-    useContext hook is also being implemented for app-wide state
-    management.`,
-    proHref: "https://github.com/odedmasala/react_youtuber_clone",
-    liveDemo: "https://vermillion-torte-8f01c4.netlify.app/",
+    addTech: "React JS / node js / Astra DB",
+    addTechList: [
+      "React JS",
+      "tailwind css",
+      "node js",
+      "express.js",
+      "nodemon.js",
+      "Astra DB",
+    ],
+    proDescription: `The app is an airport flight status widget using React for the front-end and a front-end build using Node.js to communicate with our Datastax Astra DB database, built on Apache Cassandra.`,
+    proHref: "https://github.com/odedmasala/flight-widget-app",
   },
 ];

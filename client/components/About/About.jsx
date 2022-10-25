@@ -7,7 +7,7 @@ const About = () => {
     <div id="about" className="about md:h-screen">
       <div className="about-container md:grid grid-cols-3">
         <div className="col-span-2">
-          <h2>Who I Am</h2>
+          <h2>A little about me...</h2>
           <p>
             Hi, I am a graduate of the software development course at
             Tech-Career College. From a young age I have always been deeply
