@@ -10,10 +10,10 @@ const Main = () => {
             <h1>
               Hi, I'm <span className="text-[#61954a]">Oded</span>
             </h1>
-            <h1>A Front-End Web Developer</h1>
+            <h1>full stack developer</h1>
             <p>
-              I’m focused on building responsive front-end web applications
-              integrating back-end technologies.
+            I'm focusing on looking for a fullstack/frontend position. 
+            I have a strong desire to prove myself and contribute to the team.
             </p>
             <div className="connect-container">
               {connection?.map((elem, index) => (
@@ -21,7 +21,6 @@ const Main = () => {
               ))}
             </div>
           </div>
-          x
         </div>
       </div>
     </div>

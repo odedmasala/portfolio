@@ -9,6 +9,17 @@ const About = () => {
         <div className="col-span-2">
           <h2>Who I Am</h2>
           <p>
+            Hi, I am a graduate of the software development course at
+            Tech-Career College. From a young age I have always been deeply
+            fascinated by computers and technology. After many thought and long
+            military service in the IDF, I decided that software development is the
+            profession I would like to pursue. Along with the skills I will
+            acquire in college and the personal skills that have improved in the
+            military services, I will bring with me a strong work ethic,
+            self-learning ability, high motivation to learn new systems and good
+            teamwork.
+          </p>
+          <p>
             I specialize in building mobile responsive front-end UI applications
             that connect with API’s and other backend technologies. I’m
             passionate about learning new technologies and understand there is
@@ -17,14 +28,6 @@ const About = () => {
             React, I am a quick learner and can pick up new tech stacks as
             needed. I believe that being a great developer is not using one
             specific language, but choosing the best tool for the job.
-          </p>
-          <p>
-            I started web developement in 2013 managing multiple e-commerce
-            websites on CMS platforms such as WordPress, BigCommerce, and
-            Shopify. I have experience working directly with clients and taking
-            mock wireframes all the way to deployed applications. In my spare
-            time I run Code Commerce, a Youtube channel where I teach web
-            developement and various front-end technologies.
           </p>
           <Link href="/#projects">
             <p className="py-2  underline cursor-pointer">
