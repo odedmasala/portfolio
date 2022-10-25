@@ -25,7 +25,7 @@ export const projectsList = [
   {
     proName: "ticTacToe",
     title: "react tic-tac-toe",
-    backgroundImg: "react-tic-tac-toe.png",
+    backgroundImg: "react-tic-tac-toe.jpg",
     tech: "React JS",
     addTech: "Vite JS / Typescript / tailwind css",
     addTechList: ["Vite JS ", "Typescript", "tailwind css"],
@@ -52,7 +52,7 @@ export const projectsList = [
   {
     proName: "Bullets-pop-app",
     title: "Bullets-pop app",
-    backgroundImg: "pop-game.jpg",
+    backgroundImg: "pop-game.png",
     tech: "JavaScript",
     addTech: "JavaScript vanilla / Canva / OOP",
     addTechList: ["JavaScript vanilla", "Canva", "OOP"],
@@ -63,7 +63,7 @@ export const projectsList = [
   {
     proName: "flight-widget-app",
     title: "flight widget",
-    backgroundImg: "flight-widget-app.jpg",
+    backgroundImg: "flight-widget-app.png",
     tech: "React JS",
     addTech: "React JS / node js / Astra DB",
     addTechList: [
