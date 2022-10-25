@@ -10,16 +10,19 @@ const Project = ({ proData }) => {
       <div>
         <div className="background-container">
           <div className="background-image bg-black/70" />
-          <Image
-            className="image"
-            layout="fill"
-            objectFit="cover"
-            src={`/${proData.backgroundImg}`}
-            alt="/"
-          />
+          {proData?.backgroundImg && (
+            <Image
+              className="image"
+              layout="fill"
+              objectFit="cover"
+              src={`/${proData.backgroundImg}`}
+              alt="/"
+            />
+          )}
+
           <div className="background-title">
-            <h2 className="py-2">{proData.title}</h2>
-            <h3>{proData.addTech}</h3>
+            <h2 className="py-2">{proData?.title}</h2>
+            <h3>{proData?.addTech}</h3>
           </div>
         </div>
 
@@ -27,11 +30,13 @@ const Project = ({ proData }) => {
           <div className="description-container col-span-4">
             <p>Project</p>
             <h2>Overview</h2>
-            <p>{proData.proDescription}</p>
-            <a href={proData.proHref} target="_blank" rel="noreferrer">
-              <button className="px-8 py-2 mt-4 mr-8 btn info-btn ml-6">Code</button>
+            <p>{proData?.proDescription}</p>
+            <a href={proData?.proHref} target="_blank" rel="noreferrer">
+              <button className="px-8 py-2 mt-4 mr-8 btn info-btn ml-6">
+                Code
+              </button>
             </a>
-            <a href={proData.liveDemo} target="_blank" rel="noreferrer">
+            <a href={proData?.liveDemo} target="_blank" rel="noreferrer">
               <button className="px-8 py-2 mt-4 btn info-btn ml-6">Demo</button>
             </a>
           </div>
