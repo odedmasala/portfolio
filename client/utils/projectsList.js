@@ -6,7 +6,7 @@ export const projectsList = [
     tech: "React JS",
     addTech: "React JS / mui / rapid API / Axios API",
     addTechList: ["React JS", "Mui", "rapid API"],
-    proDescription: `Modern web development by building a responsive React JS app that consists of stunning videos, custom categories, channel pages, and best of all, you can play directly videos directly.`,
+    proDescription: `Modern web development by building a responsive React JS app that consists of stunning videos, custom categories, channel pages, and best of all, you can play videos directly from YouTube.`,
     proHref: "https://github.com/odedmasala/react_youtuber_clone",
     liveDemo: "https://vermillion-torte-8f01c4.netlify.app/",
   },
