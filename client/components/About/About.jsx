@@ -9,7 +9,7 @@ const About = () => {
         <div className="col-span-2">
           <h2>A little about me...</h2>
           <p>
-            Hi, I am a graduate of the software development course at
+            Hi, I am a graduate of the software development at
             Tech-Career College. From a young age I have always been deeply
             fascinated by computers and technology. After many thought and long
             military service in the IDF, I decided that software development is the
