@@ -10,7 +10,7 @@ export const connection = [
   },
   {
     name: "Email",
-    href: "mailto:odedmasala08@gmail.com",
+    href: "mailto:odedmasala2009@gmail.com",
     label: "Email",
     icon: <AiOutlineMail />,
   },
