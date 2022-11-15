@@ -20,7 +20,7 @@ const NavList = ({ style, handlerNav }) => {
           <li onClick={() => handlerNav && handlerNav(false)}>Projects</li>
         </Link>
 
-        <a target={"_blank"} rel="noreferrer"  href="https://drive.google.com/file/d/1Cguf76NezsO8ovmPlnrSN-T6kW0URynx/view?usp=sharing">
+        <a target={"_blank"} rel="noreferrer"  href="https://drive.google.com/file/d/1Feb9r4lUOgoATkiN2AIXBwEZLHi8BMlI/view?usp=sharing">
           <li onClick={() => handlerNav && handlerNav(false)}>Resume</li>
         </a>
 
