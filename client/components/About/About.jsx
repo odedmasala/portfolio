@@ -16,7 +16,7 @@ const About = () => {
               multitasking environment from my experience in previous jobs. I am
               looking for a position where I can contribute to the goals of
               Organize and improve my professional abilities.
-              <br /> Graduated from "Tech-Career" in collaboration with IITC
+              <br /> Graduated from &quot;Tech-Career&quot; in collaboration with IITC
               College.
             </p>
             <Link href="/#projects">
