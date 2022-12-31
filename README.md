@@ -1,7 +1,6 @@
-﻿# portfolio
-client# my_portfolio
+# my_portfolio
 
-Welcome to my_portfolio, a personal portfolio website built with Next.js, SCSS, and Tailwind CSS.
+Welcome to my_portfolio, a personal portfolio website built with Next.js, SCSS, and Tailwind CSS. You can visit the live site at https://portfolio-odedmasala.vercel.app/.
 
 ## Project Description
 
@@ -22,7 +21,7 @@ To get started with my_portfolio, you will need to have the following prerequisi
 - Node.js
 - npm or yarn
 
-Once you have these prerequisites installed, you can follow the steps below to set up the app:
+Once you have these prerequisites installed, you can follow the steps below to set up the app locally:
 
 1. Clone the repository to your local machine using `git clone https://github.com/odedmasala/my_portfolio.git`.
 2. Navigate to the root directory of the project and install the dependencies using `npm install` or `yarn install`.
